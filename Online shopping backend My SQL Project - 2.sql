@@ -44,4 +44,4 @@ SELECT * FROM Ordervalue; # we get the details about placed orders
 
 SELECT max(stock)
 FROM Products
-group by stock;
+group by stock;  # We will get the available Stock
